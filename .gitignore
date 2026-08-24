@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Technocore identity
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+
+# Local editor files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
