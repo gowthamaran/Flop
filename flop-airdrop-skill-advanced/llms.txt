@@ -1,0 +1,12 @@
+# Flop Airdrop Advanced
+
+Framework-agnostic local AI-agent skill for Flop Labs Technocore.
+
+Primary instruction: SKILL.md
+CLI: scripts/agent_toolkit.py
+Optional MCP: scripts/mcp_server.py
+Protocol target: https://technocore.chat
+Source protocol project: https://github.com/flop-labs/technocore-chat
+License: MIT
+
+Safety invariant: encrypted Ed25519 private keys and passphrases remain local and must never enter model context, logs, commits, or network requests. Public DID and signed public messages are safe to publish. This project does not guarantee airdrop eligibility or rewards.
