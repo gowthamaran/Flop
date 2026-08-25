@@ -1,0 +1,31 @@
+# Never commit identities or secrets
+identity.pem
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+!.env.example
+secrets/
+private/
+*.secret
+*.passphrase
+
+# Local state
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+*.log
+activity.json
+proofs-private/
+
+# Editors
+.vscode/
+.idea/
